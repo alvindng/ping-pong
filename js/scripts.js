@@ -2,6 +2,7 @@ $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
     event.preventDefault();
     var userInput = parseInt($("input#number").val());
+    $("ul#output li").remove("li");
     if (invalidInput.test(userInput) === true) {
       alert("Please enter numbers only")
     } else {
