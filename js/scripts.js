@@ -4,7 +4,7 @@ $(document).ready(function() {
     var userInput = parseInt($("input#number").val());
     $("ul#output li").remove("li");
     if (invalidInput.test(userInput) === true) {
-      alert("Please enter positive numbers only")
+      alert("Please enter a positive number")
     } else {
     var numberOutput = numberConvert(userInput);
     for (i=0; i<numberOutput.length; i++) {
