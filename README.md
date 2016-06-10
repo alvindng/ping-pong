@@ -28,7 +28,7 @@ Ping Pong is a web application that takes a number from a user and returns a ran
 
 ## Setup/Installation Requirements
 
-* Download/clone repository, or visit
+* Download/clone repository, or visit http://alvindng.github.io/ping-pong
 * To see your number in a Ping Pong list, enter a positive number into the form
 * Click the _"Let me see the Ping Pong!"_ button to see your converted message
 
