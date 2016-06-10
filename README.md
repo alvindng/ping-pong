@@ -7,7 +7,7 @@
 ## Description
 **Ping Pong**
 
-Ping Pong is a web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
+Ping Pong is a web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions listed in the Specifications:
 
 ## Specifications
 * Count up to the provided number
@@ -28,11 +28,9 @@ Ping Pong is a web application that takes a number from a user and returns a ran
 
 ## Setup/Installation Requirements
 
-* _Download/clone repository_
-* _To convert your number into Roman numerals, enter a number between 1 and 3,999 into the form_
-* _Click "convert your number to roman numerals" button to see your converted number_
-* _To convert your number into a secret message, enter a word or phrase into the form_
-* _Click the "Let me see the Ping Pong!" button to see your converted message_
+* Download/clone repository_
+* To see your number in a Ping Pong list, enter a positive number into the form
+* Click the _"Let me see the Ping Pong!"_ button to see your converted message
 
 ## Support and contact details
 
