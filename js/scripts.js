@@ -19,10 +19,12 @@ $(document).ready(function() {
     for (i =1; i <= number; i++){
       if (i%3 === 0){
         numberArray.push("ping");
+      } else if (i%5 === 0){
+        numberArray.push("pong");
       } else {
         numberArray.push(i);
       }
     }
     return numberArray;
   }
-    var invalidInput = /[^0-9]/;
+  var invalidInput = /[^0-9]/;
