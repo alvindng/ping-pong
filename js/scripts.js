@@ -9,6 +9,7 @@ $(document).ready(function() {
     var numberOutput = numberConvert(userInput);
     for (i=0; i<numberOutput.length; i++) {
       $("#output").append("<li>" + numberOutput[i] + "</li>");
+      $("img.img-relative").show("img");
     }
     }
   });
@@ -17,10 +18,12 @@ $(document).ready(function() {
   var numberConvert = function(number) {
     var numberArray = [];
     for (i =1; i <= number; i++){
-      if (i%3 === 0){
-        numberArray.push("ping");
+      if (i%15 === 0){
+        numberArray.push("ping-pong");
       } else if (i%5 === 0){
         numberArray.push("pong");
+      } else if (i%3 === 0){
+        numberArray.push("ping");
       } else {
         numberArray.push(i);
       }

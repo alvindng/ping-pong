@@ -1,0 +1,23 @@
+body {
+  background-color: rgba(111, 98, 240, 0.5);
+  color: black;
+}
+
+.jumbotron {
+  background-color: rgba(201, 245, 227, 0.5);
+  color: black;
+  text-align: center;
+  padding: 10%;
+}
+
+ol {
+  text-align: left;
+}
+
+li {
+  color: black;
+}
+
+img {
+  display: none;
+}
